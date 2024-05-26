@@ -8,6 +8,7 @@ public abstract class BaseEntity
     // Using non-generic integer types for simplicity
     public int Id { get; set; }
 
+    //Test Changes
     private readonly List<BaseEvent> _domainEvents = new();
 
     [NotMapped]
